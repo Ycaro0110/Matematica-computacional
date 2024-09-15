@@ -2,7 +2,7 @@
 
 Alunos: Ycaro Entriel, Ana victória, Laura, Cristal, Bendo
 
-* Descrição: Implementação dos medos de calculo numérico para localizar raízes de uma equação.
+Descrição: Implementação dos medos de calculo numérico para localizar raízes de uma equação.
 - Bisecção
 - Newton-raphson
 - Posição-falsa
