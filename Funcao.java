@@ -33,7 +33,7 @@ public class Funcao {
             //calcula um novo x medio
             x_medio = (x1 + x2) / 2;
 
-            //caso o x seja a raiz, ele é retornado
+            //caso o x_medio seja a raiz, ele é retornado
             if (f.calculate(x_medio) == 0) {
                 return x_medio;
             }
