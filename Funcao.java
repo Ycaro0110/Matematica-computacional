@@ -3,7 +3,7 @@ import org.mariuszgromada.math.mxparser.mXparser;
 
 public class Funcao {
 
-    public double bisseccao(double x1, double x2, double e, String func) {
+    public double bissecao(double x1, double x2, double e, String func) {
         Function f = new Function("f(x) = " + func);
         f.checkSyntax();
         mXparser.consolePrintln(f.getErrorMessage());
