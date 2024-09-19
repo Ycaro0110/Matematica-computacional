@@ -28,7 +28,7 @@ public class Principal {
 
         double erro = teclado.nextDouble();
 
-        double result = metodo.bisseccao(x1, x2, erro, expressao);
+        double result = metodo.bissecao(x1, x2, erro, expressao);
 
         if (result == 0) {
             System.out.println("Não há raízes neste intervalo");
