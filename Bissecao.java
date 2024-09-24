@@ -1,7 +1,7 @@
 import org.mariuszgromada.math.mxparser.Function;
 import org.mariuszgromada.math.mxparser.mXparser;
 
-public class Funcao {
+public class Bissecao {
 
     public double bisseccao(double x1, double x2, double e, String func) {
         Function f = new Function("f(x) = " + func);
@@ -54,8 +54,12 @@ public class Funcao {
 
             erro_estimado = x_medio - x_old; // erro absoluto
 
-        } while (erro_estimado > e || num_iteracao < max_iteracao);
+            System.out.println("iteracao " + num_iteracao + " x = " + x_medio);
+
+        } while (erro_estimado >= e || num_iteracao < max_iteracao);
         //ao final das iterações retorna a raiz encontrada
+
         return x_medio;
     }
+
 }
